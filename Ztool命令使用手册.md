@@ -32,9 +32,9 @@ gitf工具包含了如下几个命令：
 
 
 
-< $ `ff` function1 `go`
+> $ `ff` function1 `go`
 
-< $ `ff` function1 `ok`
+> $ `ff` function1 `ok`
 
 Notes:
 （1）根据提示选择从develop，develop-A，develop-B拉取分支。
