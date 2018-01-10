@@ -6,7 +6,7 @@
 
 打开终端，执行如下命令：
 
->$ git clone https://github.com/peter-m-shi/ztool.git $HOME/ztool;sh $HOME/ztool/setup.sh
+    $ git clone https://github.com/peter-m-shi/ztool.git $HOME/ztool;sh $HOME/ztool/setup.sh
 
 
 ## gitf工具
@@ -32,9 +32,9 @@ gitf工具包含了如下几个命令：
 
 
 
-> $ `ff` function1 `go`
-
-> $ `ff` function1 `ok`
+    $ ff function1 go
+  
+    $ ff function1 ok
 
 Notes:
 （1）根据提示选择从develop，develop-A，develop-B拉取分支。
@@ -59,9 +59,9 @@ Notes:
 
 
 
->$ `fr` 7.0.0 `go`
+    $ fr 7.0.0 go
 
->$ `fr` 7.0.0 `ok`
+    $ fr 7.0.0 ok
 
 
 
@@ -87,11 +87,9 @@ Notes：上述命令中的"7.0.0"为待发布版本号。
 
 
 
-> $ `fb` MGV6-1234 `go`
+     $ fb MGV6-1234 go
 
-
-
-> $ `fb` MGV6-1234 `ok`
+     $ fb MGV6-1234 ok
 
 
 
@@ -117,11 +115,9 @@ Notes：上述命令中的“MGV6-1234”为BugID.
 
 
 
->$ `fh` crash `go`
+    $ fh crash go
 
-
-
->$ `fh` crash `ok`
+    $ fh crash ok
 
 
 
