@@ -1,22 +1,20 @@
-#Ztool 命令使用手册 hello
+# Ztool 命令使用手册 
 
 [TOC]
 
-##安装
+## 安装
 
 打开终端，执行如下命令：
 
 >$ git clone https://github.com/peter-m-shi/ztool.git $HOME/ztool;sh $HOME/ztool/setup.sh
 
 
-
-##gitf工具##
+## gitf工具
 
 gitf工具包含了如下几个命令：
 
 
-
-**gif feature**（亦可简写为**ff**）
+* **gif feature**（亦可简写为**ff**）
 
 
 
@@ -34,25 +32,16 @@ gitf工具包含了如下几个命令：
 
 
 
->$ ==ff== function1 ==go==
+>$ `ff` function1 `go`
 
-
-
->$ ==ff== function1 ==ok==
-
-
+>$ `ff` function1 `ok`
 
 Notes:
-
 （1）根据提示选择从develop，develop-A，develop-B拉取分支。
-
 （2）上述命令中的"function1"为feature分支名。
 
 
-
-
-
-**gif release**（亦可简写为**fr**）
+* **gif release**（亦可简写为**fr**）
 
 
 
@@ -70,9 +59,9 @@ Notes:
 
 
 
->$ ==fr== 7.0.0 ==go==
+>$ `fr` 7.0.0 `go`
 
->$ ==fr== 7.0.0 ==ok==
+>$ `fr` 7.0.0 `ok`
 
 
 
@@ -80,7 +69,7 @@ Notes：上述命令中的"7.0.0"为待发布版本号。
 
 
 
-**gif bugfix**（亦可简写为**fb**）
+* **gif bugfix**（亦可简写为**fb**）
 
 
 
@@ -98,11 +87,11 @@ Notes：上述命令中的"7.0.0"为待发布版本号。
 
 
 
-> $ ==fb== MGV6-1234 ==go==
+> $ `fb` MGV6-1234 `go`
 
 
 
-> $ ==fb== MGV6-1234 ==ok==
+> $ `fb` MGV6-1234 `ok`
 
 
 
@@ -110,7 +99,7 @@ Notes：上述命令中的“MGV6-1234”为BugID.
 
 
 
-**gif hotfix**（亦可简写为**fh**）
+* **gif hotfix**（亦可简写为**fh**）
 
 
 
@@ -128,23 +117,21 @@ Notes：上述命令中的“MGV6-1234”为BugID.
 
 
 
->$ ==fh== crash ==go==
+>$ `fh` crash `go`
 
 
 
->$ ==fh== crash ==ok==
+>$ `fh` crash `ok`
 
 
 
-
-
-##gitz工具##
+## gitz工具
 
 gitz工具集的使用场景：多人协作于同一分支（协作开发同一feature、sub-feature，协作修改同一bugfix，hotfix）
 
 
 
-**gitz pull**
+* **gitz pull**
 
 
 
@@ -152,7 +139,7 @@ gitz工具集的使用场景：多人协作于同一分支（协作开发同一f
 
 
 
-**gitz push**
+* **gitz push**
 
 
 
@@ -160,7 +147,7 @@ gitz工具集的使用场景：多人协作于同一分支（协作开发同一f
 
 
 
-**gitz request**
+* **gitz request**
 
 
 
@@ -168,7 +155,7 @@ gitz工具集的使用场景：多人协作于同一分支（协作开发同一f
 
 
 
-**git sub**
+* **git sub**
 
 
 
@@ -176,7 +163,7 @@ gitz工具集的使用场景：多人协作于同一分支（协作开发同一f
 
 
 
-**git super**
+* **git super**
 
 
 
@@ -184,7 +171,7 @@ gitz工具集的使用场景：多人协作于同一分支（协作开发同一f
 
 
 
-**git remove**
+* **git remove**
 
 
 
