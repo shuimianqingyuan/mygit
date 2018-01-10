@@ -145,7 +145,7 @@ gitz工具集的使用场景：多人协作于同一分支（协作开发同一f
 
 
 
-直接在命令行页面提起pull request，不需要打开Bitbucket创建pull request，提请成功会出现弹窗提示。
+直接在命令行页面提起pull request，不需要打开Bitbucket创建pull request，提请成功会出现弹窗提示
 
 
 
