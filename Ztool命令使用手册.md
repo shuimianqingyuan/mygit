@@ -31,80 +31,68 @@ $ ff function1 ok
 
 
 
-功能：
+* 功能：
 
 
 
-（1）从develop拉取release分支，开始集成测试；
-
+（1）从develop拉取release分支，开始集成测试；  
 （2）完成测试，合并到master分支（并打tag）和develop分支。
 
 
 
-示例：
+* 示例：
+```
+$ fr 7.0.0 go
+$ fr 7.0.0 ok
+```
+
+
+* Notes：上述命令中的"7.0.0"为待发布版本号。
 
 
 
-    $ fr 7.0.0 go
-
-    $ fr 7.0.0 ok
+### **gif bugfix**（亦可简写为**fb**）
 
 
 
-Notes：上述命令中的"7.0.0"为待发布版本号。
+* 功能：
 
 
 
-* **gif bugfix**（亦可简写为**fb**）
-
-
-
-功能：
-
-
-
-（1）从release拉取bugfix分支，修复bug；
-
+（1）从release拉取bugfix分支，修复bug；  
 （2）完成修复，合并回release分支。
 
 
 
-示例：
+* 示例：
+```
+$ fb MGV6-1234 go
+$ fb MGV6-1234 ok
+```
+
+
+* Notes：上述命令中的“MGV6-1234”为BugID.
 
 
 
-     $ fb MGV6-1234 go
-
-     $ fb MGV6-1234 ok
+### **gif hotfix**（亦可简写为**fh**）
 
 
 
-Notes：上述命令中的“MGV6-1234”为BugID.
+* 功能：
 
 
 
-* **gif hotfix**（亦可简写为**fh**）
-
-
-
-功能：
-
-
-
-（1）从master拉取hotfix分支，开始修复线上bug；
-
+（1）从master拉取hotfix分支，开始修复线上bug；  
 （2）完成修复，合并回master分支。
 
 
 
-示例：
-
-
-
-    $ fh crash go
-
-    $ fh crash ok
-
+* 示例：  
+```
+$ fh crash go
+$ fh crash ok
+```
 
 
 ## gitz工具
