@@ -11,35 +11,23 @@
 
 gitf工具包含了如下几个命令：
 
-
-* **gif feature**（亦可简写为**ff**）
-
-
-
-功能：
+### **gif feature**（亦可简写为**ff**）
 
 
 
-（1）从develop拉取feature分支，开始工作；
-
-（2）完成开发，合并回原分支.
-
-
-
-示例：
+* 功能：  
+  （1）从develop拉取feature分支，开始工作；  
+  （2）完成开发，合并回原分支.
 
 
+* 示例：  
+```
+$ ff function1 go  
+$ ff function1 ok
+```
+* Notes:  （1）根据提示选择从develop，develop-A，develop-B拉取分支。（2）上述命令中的"function1"为feature分支名。
 
-    $ ff function1 go
-  
-    $ ff function1 ok
-
-Notes:  
-（1）根据提示选择从develop，develop-A，develop-B拉取分支。  
-（2）上述命令中的"function1"为feature分支名。
-
-
-* **gif release**（亦可简写为**fr**）
+### **gif release**（亦可简写为**fr**）
 
 
 
